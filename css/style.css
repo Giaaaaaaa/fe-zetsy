@@ -4,6 +4,28 @@
 
 /*////////// Global Styles //////////*/
 
+h1 {
+	font-size: 5em;
+	margin: 0 auto;
+	letter-spacing: 2px;
+	transform: scale(1, 0.8);
+	font-family: 'Baskervville', serif;
+	font-weight: bolder;
+	border-bottom:1px solid #98ada6;
+	padding-bottom: 10px;
+}
+
+h2 {
+	color: #717f7a;
+	font-size: 2em;
+}
+
+p {
+	color: #555;
+}
+
+
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
@@ -12,9 +34,51 @@ body {
 
 .wrapper {
 	width: 960px;
+	min-height: 100%;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
 /* Write all remaining styles here */
+
+.zesty a {
+	text-decoration: none;
+	color: #98ada6;
+}
+
+.zesty a:hover {
+	color: #717f7a;
+}
+
+.zesty img {
+	border: #98ada6 solid 5px;
+	position: relative;
+	right: 40px;
+	top: -23px;
+}
+
+span a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+span a:hover {
+	text-decoration: underline;
+}
+
+.press img {
+	border: #ccc 5px solid;
+}
+
+.press img:hover {
+	border: #555 5px solid;
+}
+
+
+.footer {
+	text-align: end;
+	font-size: 0.8em;
+	margin: 28px auto 28px;
+}
+
